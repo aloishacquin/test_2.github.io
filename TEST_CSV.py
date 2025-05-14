@@ -78,7 +78,7 @@ def lire_tableau_csv(fichier_path):
 
 # Exemple
 if __name__ == "__main__":
-    tableau = lire_tableau_csv("C:/Users/alois/Documents/VS/test/toi.csv")
+    tableau = lire_tableau_csv("./toi.csv")
 
     
 def voyages(fichier_path):
@@ -112,7 +112,7 @@ def voyages(fichier_path):
 
 
 
-message = voyages("C:/Users/alois/Documents/VS/test/toi.csv")
+message = voyages("./toi.csv")
 
 
 def get_message():
