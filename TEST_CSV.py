@@ -92,7 +92,7 @@ def voyages(fichier_path):
         criteres = " ".join(tableau)
         prompt_final = f"{prompt_base} :\n{criteres}" 
     
-        client = OpenAI(api_key="sk-f5bd525c87194f618b564a57be771406", base_url="https://api.deepseek.com")
+       # client = OpenAI(api_key="sk-f5bd525c87194f618b564a57be771406", base_url="https://api.deepseek.com")
 
         response = client.chat.completions.create(
         model="deepseek-chat",
